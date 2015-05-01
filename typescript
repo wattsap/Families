@@ -1,0 +1,106 @@
+Script started on Tue 10 Feb 2015 01:19:47 PM EST
+(student)~/3490/Prolog/prog1% gplc families.pl
+families.pl:92: warning: discontiguous predicate grandparent/2 - clause ignored
+(student)~/3490/Prolog/prog1% families
+GNU Prolog 1.4.0
+By Daniel Diaz
+Copyright (C) 1999-2011 Daniel Diaz
+| ?- child(john, andrew)(john, andrew).
+
+(1 ms) yes
+| ?- married(john, angela)(john, angela).
+
+yes
+| ?- male(johnjohnjohnfsajo             )(john).
+
+yes
+| ?- female(iris)(iris).
+
+yes
+| ?- grandparent(al, katie)(al, katie).
+
+true ? ;
+
+no
+| ?- sister(jamie, jenny)(jamie, jenny).
+
+true ? ;
+
+no
+| ?- ancestor(al, andrew)(al, andrew).
+
+true ? ;
+
+no
+| ?- descendant(iris, andrew)(iris, andrew).
+
+true ? ;
+
+no
+| ?- mother(ellen, katie)(ellen, katie).
+
+true ? ;
+
+no
+| ?- father(pat, katie)(pat, katie).
+
+true ? ;
+
+no
+| ?- sibling(katie, par trick)(katie, patrick).
+
+true ? ;
+
+true ? ;
+
+no
+| ?- brother(johnT, jamie)(johnT, jamie).
+
+true ? ;
+
+no
+| ?- sister(jamie, jenny)(jamie, jenny).
+
+true ? ;
+
+no
+| ?- aunt(ellen, ans drew)(ellen, andrew).
+
+true ? ;
+
+true ? ;
+
+no
+| ?- son(andrew, john)(andrew, john).
+
+true ? ;
+
+no
+| ?- daughter(katie, ellen)(katie, ellen).
+
+true ? ;
+
+no
+| ?- uncle(peter, andrew)(peter, andrew).
+
+true ? ;
+
+true ? ;
+
+no
+| ?- cousin(johnT, andrew)(johnT, andrew).
+
+true ? ;
+
+true ? ;
+
+(1 ms) no
+| ?- 
+Prolog interruption (h for help) ? e
+(student)~/3490/Prolog/prog1% echo "ignor e my last submittion pel[K[Klea[K[K[K[K[K[K[K[K please, as[Kfter talking with you i  realiez i was just reading it wrong!! thanks for your help!"
+echo "ignore my last submit please, after talking with you i realiez i was just reading it wrongfamilies thanks for your help!"
+ignore my last submit please, after talking with you i realiez i was just reading it wrongfamilies thanks for your help!
+(student)~/3490/Prolog/prog1% exit
+exit
+
+Script done on Tue 10 Feb 2015 01:23:16 PM EST
